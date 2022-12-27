@@ -328,11 +328,16 @@ display: none;
     height: 100%;
 }
 .asterisks{
+
     padding: 50px;
+
 
 }
 .asterisks h2{
     font-family:'GilroyBold';
+
+}
+.asterisks-content{
 
 }
 
@@ -356,6 +361,7 @@ display: none;
 
 .global-feedback__card p{
     font-family: 'GilroyRegular';
+    max-width: 550px;
 }
 
 .shopping-address__text h3{
@@ -392,6 +398,7 @@ display: none;
 .mailing-list__content{
     display: flex;
     align-items: center;
+    flex-direction:column ;
 
 }
 
@@ -526,8 +533,16 @@ display: none;
     .card-price{
         flex-wrap: wrap;
     }
-    .with-reviews__card{
 
+    .with-reviews__card{
+        flex-direction: column;
+    }
+    .global-feedback__card{
+        display: flex;
+        flex-direction: column;
+    }
+    .global-feedback__card p{
+        max-width: 100px;
     }
 
 }
